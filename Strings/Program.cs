@@ -30,6 +30,7 @@ namespace Strings
             Console.WriteLine();
             Console.WriteLine("TEST3\r\nTEST3");
 
+            //hej
             System.IO.File.WriteAllText("C:\\temp\\test.txt",samletNavn);
 
             if (System.Diagnostics.Debugger.IsAttached)
